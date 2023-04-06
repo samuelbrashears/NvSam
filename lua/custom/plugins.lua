@@ -17,6 +17,10 @@ local plugins = {
   {
     "ggandor/lightspeed.nvim",
     lazy = false,
+  },
+  {
+    "ojroques/nvim-osc52",
+    lazy = false,
   }
 }
 return plugins
