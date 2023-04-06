@@ -15,7 +15,7 @@ local plugins = {
     },
   },
   {
-    "ggandor/lightspeed.nvim",
+    "ggandor/leap.nvim",
     lazy = false,
   },
   {
