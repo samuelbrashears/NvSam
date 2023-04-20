@@ -48,7 +48,7 @@ M.general = {
   },
 
   t = {
-    ["<C-x>"] = { vim.api.nvim_replace_termcodes("<C-\\><C-N>", true, true, true), "escape terminal mode" },
+    ["<Esc>"] = { vim.api.nvim_replace_termcodes("<C-\\><C-N>", true, true, true), "escape terminal mode" },
   },
 
   v = {
@@ -290,14 +290,14 @@ M.nvterm = {
       "toggle floating term",
     },
 
-    ["<A-h>"] = {
+    ["<C-h>"] = {
       function()
         require("nvterm.terminal").toggle "horizontal"
       end,
       "toggle horizontal term",
     },
 
-    ["<A-v>"] = {
+    ["<C-w>"] = {
       function()
         require("nvterm.terminal").toggle "vertical"
       end,
@@ -314,14 +314,14 @@ M.nvterm = {
       "toggle floating term",
     },
 
-    ["<A-h>"] = {
+    ["<C-h>"] = {
       function()
         require("nvterm.terminal").toggle "horizontal"
       end,
       "toggle horizontal term",
     },
 
-    ["<A-v>"] = {
+    ["<C-w>"] = {
       function()
         require("nvterm.terminal").toggle "vertical"
       end,
