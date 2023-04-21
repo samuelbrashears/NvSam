@@ -55,11 +55,7 @@ local plugins = {
     "github/copilot.vim",
     lazy = false
   },
-  {
-    "wakatime/vim-wakatime",
-    lazy = false
-  },
-  -- {
+ -- {
   --   "nvim-neorg/neorg",
   --   run = ":Neorg sync-parsers", -- This is the important bit!
   --   lazy = false,
