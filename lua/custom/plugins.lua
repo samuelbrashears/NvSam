@@ -34,13 +34,6 @@ local plugins = {
     end
   },
   {
-    "zbirenbaum/copilot-cmp",
-    after = { "copilot.lua" },
-    config = function ()
-      require("copilot_cmp").setup()
-    end
-  },
-  {
     "mfussenegger/nvim-dap",
   },
   {
@@ -50,10 +43,6 @@ local plugins = {
   {
     "ojroques/nvim-osc52",
     lazy = false,
-  },
-  {
-    "github/copilot.vim",
-    lazy = false
   },
  -- {
   --   "nvim-neorg/neorg",
