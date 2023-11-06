@@ -19,7 +19,7 @@ local plugins = {
     ft = "rust",
     init = function ()
       vim.g.rustfmt_autosave = 1
-      vim.g.rustfmt_options = '--edition 2021'
+      -- vim.g.rustfmt_options = '--edition 2021'
     end
   },
   {
@@ -44,6 +44,10 @@ local plugins = {
     "ojroques/nvim-osc52",
     lazy = false,
   },
+  {
+    "alexxi19/share.nvim",
+    lazy = false
+  }
  -- {
   --   "nvim-neorg/neorg",
   --   run = ":Neorg sync-parsers", -- This is the important bit!
